@@ -1,74 +1,150 @@
 ﻿using Assets.Scripts.Player;
 using UnityEngine;
+using System;
+using Assets.Scripts.Factions;
 
 namespace Assets.Scripts.Weapons {
-    public class WeaponHandler : MonoBehaviour {
-        private static readonly Vector3 FirearmPosition = new Vector3(0.241f, -0.03f, 0.019f);
-        private static readonly Vector3 FirearmEulerRotation = new Vector3(-0.365f, 94.091f, 90.735f);
+    #region Weapon Enums
+    /**
+     * @author Brenton Hauth
+     * @date 11/25/20
+     * <summary>
+     * Used to trigger different animation layers,
+     * depending on what weapon they are holding
+     * </summary>
+     */
+    public enum AnimationLayer {
+        Base = 1,
+        Firearm = 2,
+        Melee = 4,
+    }
+    #endregion
+
+    /**
+     * @author Brenton Hauth
+     * @date 10/25/20
+     * <summary>
+     * Handles all weapon interactions (both Melee & Firearm).
+     * Is extended by <c>PlayerWeaponHandler</c> & <c>EnemyWeaponHandler</c>
+     * </summary>
+     * <see cref="PlayerWeaponHandler" />
+     * <see cref="EnemyWeaponHandler" />
+     */
+    [RequireComponent(typeof(Animator))]
+    [RequireComponent(typeof(FactionEntity))]
+    public abstract class WeaponHandler : MonoBehaviour {
 
         #region Exposed Variables
         public Transform RightHand;
+        public GameObject Weapon;
         #endregion
 
         #region Variables
-        private GameObject _TestWeapon;
-        private PlayerController PlayerController;
+        private Animator Animator;
         #endregion
 
         #region Properties
-        public Weapon CurrentWeapon { get; private set; } = null;
         public bool HasWeapon => CurrentWeapon;
-        public float MouseX => Input.GetAxis("Mouse X");
-        public float MouseY => Input.GetAxis("Mouse Y");
-        public bool Fire1 => Input.GetButton("Fire1");
+        public bool ShouldReload { get; private set; }
+        public abstract Vector3 BulletOrigin { get; }
+        public abstract Vector3 BulletDirection { get; }
+        public abstract Vector3 FirearmPosition { get; }
+        public abstract Vector3 FirearmEulerRotation { get; }
+        public Weapon CurrentWeapon { get; protected set; } = null;
+        public FactionEntity Entity { get; private set; }
         #endregion
 
         #region Methods
-        void Start() {
-            _TestWeapon = GameObject.FindGameObjectWithTag("Weapon");
-            print("TEST WEAPON: " + _TestWeapon);
-
-            PlayerController = GetComponent<PlayerController>();
+        /**
+         * @author Brenton Hauth
+         * @date 11/08/20
+         * <summary>Start method called by Unity.</summary>
+         */
+        protected virtual void Start() {
+            Animator = GetComponent<Animator>();
+            Entity = GetComponent<FactionEntity>();
+            if (Weapon) Equip(Instantiate(Weapon));
         }
 
-        void Update() {
-            /*if (_TestWeapon && !HasWeapon && Vector3.Distance(transform.position, _TestWeapon.transform.position) <= 1f) {
-                PickUp(_TestWeapon);
-            }*/
+        /**
+         * @author Brenton Hauth
+         * @date 11/08/20
+         * <summary>Update function called by Unity.</summary>
+         */
+        protected virtual void Update() { }
 
-            if (Fire1 && CurrentWeapon) {
-                CurrentWeapon.TryAttacking();
-            }
-        }
-
-        public void PickUp(GameObject weapon) {
-            Weapon Weapon;
+        /**
+         * @author Brenton Hauth
+         * @date 11/18/20
+         * <summary>Originally called "PickUp"; Equips the weapon to the entity.</summary>
+         * <param name="weaponObject">The weapon to equip (requires Weapon component).</param>
+         * <returns>whether or not the weapon was properly equiped</returns>
+         */
+        public virtual bool Equip(GameObject weaponObject) {          
+            Weapon weapon;
             try {
-                Weapon = weapon.GetComponent<Weapon>();
-            } catch (System.Exception) { return; }
+                // Gets weapon component from weaponObject
+                // TODO: Implement null check on 'weaponObject' to unequip weapon
+                weapon = weaponObject.GetComponent<Weapon>();
+                if (!weapon) return false;
+            } catch { return false; }
 
-            if (Weapon) {
-                if (CurrentWeapon) {
-                    if (CurrentWeapon is Firearm a)
-                        a.OnShoot -= PlayerController.TriggerFire;
-                    CurrentWeapon.gameObject.transform.SetParent(null);
-                    CurrentWeapon.IsPickedUp = false;
-                }
-                CurrentWeapon = Weapon;
-                weapon.transform.SetParent(RightHand);
-                weapon.transform.localPosition = FirearmPosition;
-                PlayerController?.ActivateLayer(PlayerController.Layer.Firearm);
-                CurrentWeapon.IsPickedUp = true;
-                // new Vector3(-.5f, 0)
-                weapon.transform.localEulerAngles = FirearmEulerRotation;
+            CurrentWeapon?.AttachToHandler(null); // removes old Weapon from entity
+            weapon.AttachToHandler(this); // Appends new weapon to entity
 
-                if (Weapon is Firearm f) {
-                    f.OnShoot += PlayerController.TriggerFire;
-                }
+            // Updates the weapon transform to the proper Position & Rotation
+            weaponObject.transform.localPosition = FirearmPosition;
+            weaponObject.transform.localEulerAngles = FirearmEulerRotation;
 
-                HudHandler.ClearPrompt();
-            }
+            ActivateLayer(weapon is Firearm
+                ? AnimationLayer.Firearm : AnimationLayer.Base);
+
+            Weapon = weaponObject;
+            CurrentWeapon = weapon;
+            return true;
         }
+
+        /**
+         * @author Brenton Hauth
+         * @date 11/22/20
+         * <summary>
+         * Activates the appropriate animation layer, depending on what weapon is equiped
+         * and deactivate the other layers
+         * </summary>
+         * <param name="layer">The layer to activate</param>
+         */
+        public void ActivateLayer(AnimationLayer layer) {
+            void set(AnimationLayer a) {
+                float w = Mathf.Clamp01((float)(a & layer)); // Converts layer into 1f or 0f
+                string s = a.ToString("G"); // Gets the literal name of the layer
+                int i = Animator.GetLayerIndex(s); // Gets the layer index from the name
+                Animator.SetLayerWeight(i, w); // sets the weight of the layer
+            }
+
+            // Runs code for each layer
+            set(AnimationLayer.Base);
+            set(AnimationLayer.Firearm);
+            // set(Layer.Melee);
+        }
+
+        /**
+         * @author Brenton Hauth
+         * @date 11/22/20
+         * <summary>Called if the current weapon is a Firearm and it shoots</summary>
+         */
+        public virtual void OnShoot() { }
+        // TODO: ^^^ potentially change to abstract method
+
+        /**
+         * @author Brenton Hauth
+         * @date 11/22/20
+         * <summary>Called if the current weapon hits an object</summary>
+         * <param name="o">The object hit by the weapon (or bullet)</param>
+         */
+        public virtual void OnHit(GameObject o) { }
+        // TODO: ^^^ potentially change to abstract method
+
+        public virtual void OnReload(ReloadFlag suggestion) { }
         #endregion
     }
 }
