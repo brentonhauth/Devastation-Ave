@@ -7,8 +7,8 @@ using Random = UnityEngine.Random;
 namespace Assets.Scripts.Weapons {
     #region Firearm Enums
     /**
-     * @author Brenton Hauth
-     * @date 11/25/20
+     * <author>Brenton Hauth</author>
+     * <date>11/25/20</date>
      * <summary>
      * Suggests what action should be taken depending on the amount of ammo
      * </summary>
@@ -23,8 +23,8 @@ namespace Assets.Scripts.Weapons {
     #endregion
 
     /**
-     * @author Brenton Hauth
-     * @date 11/25/20
+     * <author>Brenton Hauth</author>
+     * <date>11/25/20</date>
      * <summary>
      * Attached to all Firearm based weapons. Extends <c>Weapon</c> class.
      * </summary>
@@ -78,8 +78,8 @@ namespace Assets.Scripts.Weapons {
 
         #region Methods
         /**
-         * @author Brenton Hauth
-         * @date 10/20/20
+         * <author>Brenton Hauth</author>
+         * <date>10/20/20</date>
          * <summary>Update the accuracy of the shot</summary>
          * <param name="ratio">0.0 means they are aiming, 1.0 means they are not aiming</param>
          */
@@ -88,8 +88,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 10/20/20
+         * <author>Brenton Hauth</author>
+         * <date>10/20/20</date>
          * <summary>Start method called by Unity</summary>
          */
         protected override void Start() {
@@ -103,8 +103,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/22/20
+         * <author>Brenton Hauth</author>
+         * <date>11/22/20</date>
          * <summary>Refils the mag</summary>
          */
         private void RefillMag() {
@@ -121,8 +121,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/08/20
+         * <author>Brenton Hauth</author>
+         * <date>11/08/20</date>
          * <summary>Creates light at the end of the barrel</summary>
          */
         private void MuzzleFlash() {
@@ -131,8 +131,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/08/20
+         * <author>Brenton Hauth</author>
+         * <date>11/08/20</date>
          * <summary>Turns off light at the end of the barrel</summary>
          */
         private void EndMuzzleFlash() {
@@ -140,8 +140,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 10/31/20
+         * <author>Brenton Hauth</author>
+         * <date>10/31/20</date>
          * <summary>"Shoots" the firearm</summary>
          */
         public override void Attack() { // Shoot
@@ -165,8 +165,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/21/20
+         * <author>Brenton Hauth</author>
+         * <date>11/21/20</date>
          * <summary>
          * Causes a delay in the bullet to make it appear as if it travels
          * </summary>
@@ -191,8 +191,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 10/20/20
+         * <author>Brenton Hauth</author>
+         * <date>10/20/20</date>
          * <summary>
          * Changes the direction of the bullet depending on hipfire & accuracy
          * </summary>
@@ -206,8 +206,8 @@ namespace Assets.Scripts.Weapons {
 
         #region Bullet Struct
         /**
-         * @author Brenton Hauth
-         * @date 10/20/20
+         * <author>Brenton Hauth</author>
+         * <date>10/20/20</date>
          * <summary>Holds the data to cast a ray bullet</summary>
          */
         public struct Bullet {

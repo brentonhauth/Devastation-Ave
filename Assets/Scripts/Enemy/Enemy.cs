@@ -9,8 +9,8 @@ using UnityEngine.AI;
 namespace Assets.Scripts.Enemy {
     #region Enemy Enums
     /**
-     * @author Brenton Hauth
-     * @date 11/16/20
+     * <author>Brenton Hauth</author>
+     * <date>11/16/20</date>
      * <summary>
      * The different patrol patterns for enemy
      * </summary>
@@ -19,8 +19,8 @@ namespace Assets.Scripts.Enemy {
     #endregion
 
     /**
-     * @author Brenton Hauth
-     * @date 11/16/20
+     * <author>Brenton Hauth</author>
+     * <date>11/16/20</date>
      * <summary>
      * Generic enemy class to be overriden by Specific enemies
      * </summary>
@@ -61,8 +61,8 @@ namespace Assets.Scripts.Enemy {
 
         #region Methods
         /**
-         * @author Brenton Hauth
-         * @date 11/16/20
+         * <author>Brenton Hauth</author>
+         * <date>11/16/20</date>
          * <summary>
          * Awake method called by Unity
          * </summary>
@@ -95,8 +95,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/16/20
+         * <author>Brenton Hauth</author>
+         * <date>11/16/20</date>
          * <summary>
          * Start method called by Unity
          * </summary>
@@ -117,8 +117,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/16/20
+         * <author>Brenton Hauth</author>
+         * <date>11/16/20</date>
          * <summary>
          * Update method called by Unity
          * </summary>
@@ -129,8 +129,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/16/20
+         * <author>Brenton Hauth</author>
+         * <date>11/16/20</date>
          * <summary>
          * Called when enemy's health reaches 0
          * </summary>
@@ -139,8 +139,8 @@ namespace Assets.Scripts.Enemy {
 
 
         /**
-         * @author Brenton Hauth
-         * @date 11/16/20
+         * <author>Brenton Hauth</author>
+         * <date>11/16/20</date>
          * <summary>
          * Called when FactionEntity spots a target
          * </summary>

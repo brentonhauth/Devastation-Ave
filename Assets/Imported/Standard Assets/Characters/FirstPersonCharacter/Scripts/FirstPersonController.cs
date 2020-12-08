@@ -6,6 +6,13 @@ using Random = UnityEngine.Random;
 #pragma warning disable 618, 649
 namespace Assets.Imported.Standard_Assets.Characters.FirstPersonCharacter.Scripts
 {
+
+    /**
+     * <remarks>
+     * Retrieved from Unity Standard Assets
+     * Small edits by Brenton Hauth
+     * </remarks>
+     */
     [RequireComponent(typeof (CharacterController))]
     [RequireComponent(typeof (AudioSource))]
     public class FirstPersonController : MonoBehaviour

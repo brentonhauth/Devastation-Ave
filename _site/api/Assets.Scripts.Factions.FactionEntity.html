@@ -1,0 +1,1437 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FactionEntity
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FactionEntity
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Assets.Scripts.Factions.FactionEntity">
+  
+  
+  <h1 id="Assets_Scripts_Factions_FactionEntity" data-uid="Assets.Scripts.Factions.FactionEntity" class="text-break">Class FactionEntity
+  </h1>
+  <div class="markdown level0 summary"><p>Represents an entity in the scene. Provides numerous functions
+to ensure the entity acts like a living creature.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">FactionEntity</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Assets.Scripts.Factions.html">Assets.Scripts.Factions</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Assets_Scripts_Factions_FactionEntity_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[RequireComponent(typeof(Health))]
+public class FactionEntity : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_DetectionRange.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.DetectionRange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L56">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_DetectionRange" data-uid="Assets.Scripts.Factions.FactionEntity.DetectionRange">DetectionRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float DetectionRange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_ENTITY_LAYER.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.ENTITY_LAYER%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L43">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_ENTITY_LAYER" data-uid="Assets.Scripts.Factions.FactionEntity.ENTITY_LAYER">ENTITY_LAYER</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ENTITY_LAYER = 256</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_ENTITY_LAYER_INDEX.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.ENTITY_LAYER_INDEX%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L42">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_ENTITY_LAYER_INDEX" data-uid="Assets.Scripts.Factions.FactionEntity.ENTITY_LAYER_INDEX">ENTITY_LAYER_INDEX</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ENTITY_LAYER_INDEX = 8</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_Faction.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.Faction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L51">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_Faction" data-uid="Assets.Scripts.Factions.FactionEntity.Faction">Faction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Faction Faction</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Factions.Faction.html">Faction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_FovAngle.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.FovAngle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L55">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_FovAngle" data-uid="Assets.Scripts.Factions.FactionEntity.FovAngle">FovAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FovAngle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_HasEyes.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.HasEyes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L57">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_HasEyes" data-uid="Assets.Scripts.Factions.FactionEntity.HasEyes">HasEyes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasEyes</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_Head.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.Head%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L59">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_Head" data-uid="Assets.Scripts.Factions.FactionEntity.Head">Head</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform Head</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_Hidden.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.Hidden%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L58">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_Hidden" data-uid="Assets.Scripts.Factions.FactionEntity.Hidden">Hidden</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Hidden</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_IsControlled.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.IsControlled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L54">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_IsControlled" data-uid="Assets.Scripts.Factions.FactionEntity.IsControlled">IsControlled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsControlled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_LANDSCAPE_AND_ENTITIES.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.LANDSCAPE_AND_ENTITIES%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L47">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_LANDSCAPE_AND_ENTITIES" data-uid="Assets.Scripts.Factions.FactionEntity.LANDSCAPE_AND_ENTITIES">LANDSCAPE_AND_ENTITIES</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LANDSCAPE_AND_ENTITIES = 768</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_LANDSCAPE_LAYER.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.LANDSCAPE_LAYER%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L44">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_LANDSCAPE_LAYER" data-uid="Assets.Scripts.Factions.FactionEntity.LANDSCAPE_LAYER">LANDSCAPE_LAYER</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LANDSCAPE_LAYER = 512</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_Sensitivity.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.Sensitivity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L53">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_Sensitivity" data-uid="Assets.Scripts.Factions.FactionEntity.Sensitivity">Sensitivity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SoundSensitivity Sensitivity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Factions.SoundSensitivity.html">SoundSensitivity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_TargetType.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.TargetType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L52">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_TargetType" data-uid="Assets.Scripts.Factions.FactionEntity.TargetType">TargetType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FactionEntityTarget TargetType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Factions.FactionEntityTarget.html">FactionEntityTarget</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_HasTarget.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.HasTarget%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L80">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_HasTarget_" data-uid="Assets.Scripts.Factions.FactionEntity.HasTarget*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_HasTarget" data-uid="Assets.Scripts.Factions.FactionEntity.HasTarget">HasTarget</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTarget { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_Health.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.Health%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L78">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_Health_" data-uid="Assets.Scripts.Factions.FactionEntity.Health*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_Health" data-uid="Assets.Scripts.Factions.FactionEntity.Health">Health</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Health Health { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Player.Health.html">Health</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_IsRegistered.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.IsRegistered%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L68">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_IsRegistered_" data-uid="Assets.Scripts.Factions.FactionEntity.IsRegistered*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_IsRegistered" data-uid="Assets.Scripts.Factions.FactionEntity.IsRegistered">IsRegistered</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRegistered { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_IsSearching.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.IsSearching%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L76">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_IsSearching_" data-uid="Assets.Scripts.Factions.FactionEntity.IsSearching*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_IsSearching" data-uid="Assets.Scripts.Factions.FactionEntity.IsSearching">IsSearching</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSearching { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_Position.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.Position%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L79">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_Position_" data-uid="Assets.Scripts.Factions.FactionEntity.Position*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_Position" data-uid="Assets.Scripts.Factions.FactionEntity.Position">Position</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Position { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_Target.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.Target%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L77">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_Target_" data-uid="Assets.Scripts.Factions.FactionEntity.Target*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_Target" data-uid="Assets.Scripts.Factions.FactionEntity.Target">Target</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FactionEntity Target { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Factions.FactionEntity.html">FactionEntity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_DirectLineOfSight_Assets_Scripts_Factions_FactionEntity_.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.DirectLineOfSight(Assets.Scripts.Factions.FactionEntity)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L233">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_DirectLineOfSight_" data-uid="Assets.Scripts.Factions.FactionEntity.DirectLineOfSight*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_DirectLineOfSight_Assets_Scripts_Factions_FactionEntity_" data-uid="Assets.Scripts.Factions.FactionEntity.DirectLineOfSight(Assets.Scripts.Factions.FactionEntity)">DirectLineOfSight(FactionEntity)</h4>
+  <div class="markdown level1 summary"><p>Checks if entity has direct line of sight to an entity
+(not interrupted by an a wall)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DirectLineOfSight(FactionEntity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Factions.FactionEntity.html">FactionEntity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>If the entity has a direct line of site</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_DirectLineOfSight_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.DirectLineOfSight(UnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L211">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_DirectLineOfSight_" data-uid="Assets.Scripts.Factions.FactionEntity.DirectLineOfSight*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_DirectLineOfSight_UnityEngine_Transform_" data-uid="Assets.Scripts.Factions.FactionEntity.DirectLineOfSight(UnityEngine.Transform)">DirectLineOfSight(Transform)</h4>
+  <div class="markdown level1 summary"><p>Checks if the entity has direct line of sight to the object
+(not interrupted by an a wall)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DirectLineOfSight(Transform object)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">object</span></td>
+        <td><p>The object to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>If the entity has a direct line of site</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_InFov_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.InFov(UnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L194">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_InFov_" data-uid="Assets.Scripts.Factions.FactionEntity.InFov*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_InFov_UnityEngine_Transform_" data-uid="Assets.Scripts.Factions.FactionEntity.InFov(UnityEngine.Transform)">InFov(Transform)</h4>
+  <div class="markdown level1 summary"><p>Checks if an object is in the entities Field of View</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool InFov(Transform object)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">object</span></td>
+        <td><p>The object to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>if the object is in the FOV</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_InRange_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.InRange(UnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L179">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_InRange_" data-uid="Assets.Scripts.Factions.FactionEntity.InRange*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_InRange_UnityEngine_Transform_" data-uid="Assets.Scripts.Factions.FactionEntity.InRange(UnityEngine.Transform)">InRange(Transform)</h4>
+  <div class="markdown level1 summary"><p>Checks if Entity is within a certain range of an object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool InRange(Transform object)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">object</span></td>
+        <td><p>The object to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>If the object is in range</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_ListenForNoise_Assets_Scripts_Factions_Faction_Assets_Scripts_Factions_NoiseType_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.ListenForNoise(Assets.Scripts.Factions.Faction%2CAssets.Scripts.Factions.NoiseType%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L122">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_ListenForNoise_" data-uid="Assets.Scripts.Factions.FactionEntity.ListenForNoise*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_ListenForNoise_Assets_Scripts_Factions_Faction_Assets_Scripts_Factions_NoiseType_UnityEngine_Vector3_" data-uid="Assets.Scripts.Factions.FactionEntity.ListenForNoise(Assets.Scripts.Factions.Faction,Assets.Scripts.Factions.NoiseType,UnityEngine.Vector3)">ListenForNoise(Faction, NoiseType, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Called when the entity hears a noise</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ListenForNoise(Faction faction, NoiseType noise, Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Factions.Faction.html">Faction</a></td>
+        <td><span class="parametername">faction</span></td>
+        <td><p>The faction that produced the noise</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Factions.NoiseType.html">NoiseType</a></td>
+        <td><span class="parametername">noise</span></td>
+        <td><p>The type of noise produced</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position of the noise</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_SetTarget_Assets_Scripts_Factions_FactionEntity_.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.SetTarget(Assets.Scripts.Factions.FactionEntity)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L318">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_SetTarget_" data-uid="Assets.Scripts.Factions.FactionEntity.SetTarget*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_SetTarget_Assets_Scripts_Factions_FactionEntity_" data-uid="Assets.Scripts.Factions.FactionEntity.SetTarget(Assets.Scripts.Factions.FactionEntity)">SetTarget(FactionEntity)</h4>
+  <div class="markdown level1 summary"><p>Sets the target for the entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTarget(FactionEntity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Factions.FactionEntity.html">FactionEntity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The target</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_Sweep.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.Sweep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L243">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_Sweep_" data-uid="Assets.Scripts.Factions.FactionEntity.Sweep*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_Sweep" data-uid="Assets.Scripts.Factions.FactionEntity.Sweep">Sweep()</h4>
+  <div class="markdown level1 summary"><p>Sweeps through entities and checks which ones are in range
+TODO: Try optimizing method a bit more</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Sweep()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_ToString.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L362">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Factions_FactionEntity_ToString_" data-uid="Assets.Scripts.Factions.FactionEntity.ToString*"></a>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_ToString" data-uid="Assets.Scripts.Factions.FactionEntity.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Override of ToString</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEngine.Object.ToString()</span></div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_OnNoise.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.OnNoise%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L90">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_OnNoise" data-uid="Assets.Scripts.Factions.FactionEntity.OnNoise">OnNoise</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;Vector3, float&gt; OnNoise</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">UnityEngine.Vector3</span>, <span class="xref">System.Single</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_OnRegistered.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.OnRegistered%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L91">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_OnRegistered" data-uid="Assets.Scripts.Factions.FactionEntity.OnRegistered">OnRegistered</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnRegistered</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_OnTarget.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.OnTarget%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L89">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_OnTarget" data-uid="Assets.Scripts.Factions.FactionEntity.OnTarget">OnTarget</h4>
+  <div class="markdown level1 summary"><p>Called when the entity aquires a new target</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;FactionEntity&gt; OnTarget</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Assets.Scripts.Factions.FactionEntity.html">FactionEntity</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity_OnUnregistered.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity.OnUnregistered%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L92">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Factions_FactionEntity_OnUnregistered" data-uid="Assets.Scripts.Factions.FactionEntity.OnUnregistered">OnUnregistered</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnUnregistered</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Factions_FactionEntity.md&amp;value=---%0Auid%3A%20Assets.Scripts.Factions.FactionEntity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Factions/FactionEntity.cs/#L39" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

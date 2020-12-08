@@ -5,8 +5,8 @@ using Assets.Scripts.Helpers;
 
 namespace Assets.Scripts.Weapons {
     /**
-     * @author Brenton Hauth
-     * @date 10/28/20
+     * <author>Brenton Hauth</author>
+     * <date>10/28/20</date>
      * <summary>
      * Generic Weapon class to be extended by <c>Melee</c> & <c>Firearm</c>
      * </summary>
@@ -48,8 +48,8 @@ namespace Assets.Scripts.Weapons {
         public event Action<GameObject> OnHit; // Most likely will remove
         
         /**
-         * @author Brenton Hauth
-         * @date 10/20/20
+         * <author>Brenton Hauth</author>
+         * <date>10/20/20</date>
          * <summary>Start method called by Unity</summary>
          */
         protected virtual void Start() {
@@ -67,8 +67,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Attaches the weapon to the handler's right hand. If the handler
          * is null (or doesn't have a right hand) then it sets the parent to null.
@@ -82,8 +82,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 10/23/20
+         * <author>Brenton Hauth</author>
+         * <date>10/23/20</date>
          * <summary>
          * Sets the <c>CanAttack</c> flag to true.
          * Is called by the <c>Invoke</c> method.
@@ -92,8 +92,8 @@ namespace Assets.Scripts.Weapons {
         private void SetAttackFlag() => CanAttack = true;
 
         /**
-         * @author Brenton Hauth
-         * @date 11/08/20
+         * <author>Brenton Hauth</author>
+         * <date>11/08/20</date>
          * <summary>Attempts to attack with the weapon</summary>
          */
         public void TryAttacking() {
@@ -109,8 +109,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/18/20
+         * <author>Brenton Hauth</author>
+         * <date>11/18/20</date>
          * <summary>Called when the weapon (or bullet) hit something</summary>
          * <param name="o">The object hit by the weapon/bullet</param>
          */
@@ -124,8 +124,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 10/20/20
+         * <author>Brenton Hauth</author>
+         * <date>10/20/20</date>
          * <summary>Update method called by Unity</summary>
          */
         protected virtual void Update() {
@@ -137,8 +137,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/07/20
+         * <author>Brenton Hauth</author>
+         * <date>11/07/20</date>
          * <summary>
          * Checks if the prompt is active when the Player is close
          * </summary>
@@ -158,8 +158,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 10/31/20
+         * <author>Brenton Hauth</author>
+         * <date>10/31/20</date>
          * <summary>Used to handle the weapon "attacking" or "shooting"</summary>
          */
         public abstract void Attack();

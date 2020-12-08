@@ -29,8 +29,8 @@ namespace Assets.Scripts.Factions {
     #endregion
 
     /**
-     * @author Brenton Hauth
-     * @date 11/13/20
+     * <author>Brenton Hauth</author>
+     * <date>11/13/20</date>
      * <summary>
      * Represents an entity in the scene. Provides numerous functions
      * to ensure the entity acts like a living creature.
@@ -92,8 +92,8 @@ namespace Assets.Scripts.Factions {
         public event Action OnUnregistered;
 
         /**
-         * @author Brenton Hauth
-         * @date 11/13/20
+         * <author>Brenton Hauth</author>
+         * <date>11/13/20</date>
          * <summary>Start method called by Unity.</summary>
          */
         private void Start() {
@@ -112,8 +112,8 @@ namespace Assets.Scripts.Factions {
 
 
         /**
-         * @author Brenton Hauth
-         * @date 11/24/20
+         * <author>Brenton Hauth</author>
+         * <date>11/24/20</date>
          * <summary>Called when the entity hears a noise</summary>
          * <param name="faction">The faction that produced the noise</param>
          * <param name="noise">The type of noise produced</param>
@@ -132,8 +132,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/13/20
+         * <author>Brenton Hauth</author>
+         * <date>11/13/20</date>
          * <summary>Update method called by Unity.</summary>
          */
         private void Update() {
@@ -144,8 +144,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/13/20
+         * <author>Brenton Hauth</author>
+         * <date>11/13/20</date>
          * <summary>
          * Called by Unity when Entity is Enabled
          * </summary>
@@ -155,10 +155,10 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/14/20
-         * @author Brenton Hauth
-         * @date 11/13/20
+         * <author>Brenton Hauth</author>
+         * <date>11/14/20</date>
+         * <author>Brenton Hauth</author>
+         * <date>11/13/20</date>
          * <summary>
          * Called by Unity when Entity is Disabled
          * </summary>
@@ -168,8 +168,8 @@ namespace Assets.Scripts.Factions {
         }
         
         /**
-         * @author Brenton Hauth
-         * @date 11/14/20
+         * <author>Brenton Hauth</author>
+         * <date>11/14/20</date>
          * <summary>
          * Checks if Entity is within a certain range of an object
          * </summary>
@@ -183,8 +183,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/14/20
+         * <author>Brenton Hauth</author>
+         * <date>11/14/20</date>
          * <summary>
          * Checks if an object is in the entities Field of View
          * </summary>
@@ -199,8 +199,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/14/20
+         * <author>Brenton Hauth</author>
+         * <date>11/14/20</date>
          * <summary>
          * Checks if the entity has direct line of sight to the object
          * (not interrupted by an a wall)
@@ -221,8 +221,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/15/20
+         * <author>Brenton Hauth</author>
+         * <date>11/15/20</date>
          * <summary>
          * Checks if entity has direct line of sight to an entity
          * (not interrupted by an a wall)
@@ -233,8 +233,8 @@ namespace Assets.Scripts.Factions {
         public bool DirectLineOfSight(FactionEntity entity) => DirectLineOfSight(entity.transform);
 
         /**
-         * @author Brenton Hauth
-         * @date 11/16/20
+         * <author>Brenton Hauth</author>
+         * <date>11/16/20</date>
          * <summary>
          * Sweeps through entities and checks which ones are in range
          * TODO: Try optimizing method a bit more
@@ -270,8 +270,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/15/20
+         * <author>Brenton Hauth</author>
+         * <date>11/15/20</date>
          * <summary>
          * Gets an entity Attached to the collider. 'GetComponent' is very costly, so
          * it achieves this by checking the cached entities in the Faction Manager.
@@ -294,8 +294,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/15/20
+         * <author>Brenton Hauth</author>
+         * <date>11/15/20</date>
          * <summary>
          * Checks if the entity is in the Field of View
          * and if we have direct line of sight to the entity
@@ -310,8 +310,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/15/20
+         * <author>Brenton Hauth</author>
+         * <date>11/15/20</date>
          * <summary>Sets the target for the entity.</summary>
          * <param name="entity">The target</param>
          */
@@ -327,8 +327,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/19/20
+         * <author>Brenton Hauth</author>
+         * <date>11/19/20</date>
          * <summary>
          * Called when the entity's target health reaches 0
          * </summary>
@@ -340,8 +340,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/19/20
+         * <author>Brenton Hauth</author>
+         * <date>11/19/20</date>
          * <summary>
          * Called when the entity's health reaches 0
          * </summary>
@@ -355,8 +355,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>Override of ToString</summary>
          */
         public override string ToString() {

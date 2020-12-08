@@ -8,8 +8,8 @@ using UnityEngine;
 
 namespace Assets.Scripts.Weapons {
     /**
-     * @author Brenton Hauth
-     * @date 11/18/20
+     * <author>Brenton Hauth</author>
+     * <date>11/18/20</date>
      * <summary>
      * Handles all weapon interactions for the Player.
      * Extends <c>WeaponHandler</c>.

@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts.Levels {
     /**
-     * @author Brenton Hauth
-     * @date 12/07/20
+     * <author>Brenton Hauth</author>
+     * <date>12/07/20</date>
      * <summary>
      * Handles Transitions between scenes
      * </summary>
@@ -14,8 +14,8 @@ namespace Assets.Scripts.Levels {
     public class TransitionHandler : MonoBehaviour {
 
         /**
-         * @author Brenton Hauth
-         * @date 12/07/20
+         * <author>Brenton Hauth</author>
+         * <date>12/07/20</date>
          * <summary>Loads next level from based on level</summary>
          */
         public static void LoadNextLevel() {
@@ -32,8 +32,8 @@ namespace Assets.Scripts.Levels {
         private void OnCollisionEnter(Collision c) => Collide(c.gameObject);
 
         /**
-         * @author Brenton Hauth
-         * @date 12/07/20
+         * <author>Brenton Hauth</author>
+         * <date>12/07/20</date>
          * <summary>
          * Handles all collisions from Colliders
          * </summary>

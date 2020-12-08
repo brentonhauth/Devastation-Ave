@@ -7,8 +7,8 @@ using UnityEngine;
 
 namespace Assets.Scripts.Enemy {
     /**
-     * @author Brenton Hauth
-     * @date 11/20/20
+     * <author>Brenton Hauth</author>
+     * <date>11/20/20</date>
      * <summary>
      * Specific class for Seeker behaviour
      * </summary>
@@ -23,8 +23,8 @@ namespace Assets.Scripts.Enemy {
 
         #region Properties
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Flag to indicate if the enemy is attacking 
          * </summary>
@@ -38,8 +38,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Flag to indicate speed of enemy
          * </summary>
@@ -55,8 +55,8 @@ namespace Assets.Scripts.Enemy {
 
         #region Methods
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Start method called by Unity
          * </summary>
@@ -73,8 +73,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Called when the enemy finds a target
          * </summary>
@@ -88,8 +88,8 @@ namespace Assets.Scripts.Enemy {
 
         #region State Methods
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Called when the Idle state starts
          * </summary>
@@ -99,8 +99,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Called when the Idle state ends
          * </summary>
@@ -110,8 +110,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Called when the Seek state starts
          * </summary>
@@ -127,8 +127,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Handles the Seek state for the Seeker
          * </summary>
@@ -145,8 +145,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Called when the Seek state ends
          * </summary>
@@ -157,8 +157,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Called when the Attack state starts
          * </summary>
@@ -168,8 +168,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Handles the attack state for the seeker
          * </summary>
@@ -182,8 +182,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Called when the Attack state ends
          * </summary>
@@ -194,8 +194,8 @@ namespace Assets.Scripts.Enemy {
         #endregion
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Called when an enemy hit box hits an object
          * </summary>
@@ -211,8 +211,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Called when a noise is produced by the FactionManager
          * </summary>

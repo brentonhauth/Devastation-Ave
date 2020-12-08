@@ -8,8 +8,8 @@ namespace Assets.Scripts.Factions {
     public enum NoiseType { Walking, GunShot }
 
     /**
-     * @author Brenton Hauth
-     * @date 11/13/20
+     * <author>Brenton Hauth</author>
+     * <date>11/13/20</date>
      * <summary>
      * Stores, registers, and handles all the entities in the scene.
      * </summary>
@@ -40,8 +40,8 @@ namespace Assets.Scripts.Factions {
         public static event Action<Faction, NoiseType, Vector3> ListenForNoise;
 
         /**
-         * @author Brenton Hauth
-         * @date 11/14/20
+         * <author>Brenton Hauth</author>
+         * <date>11/14/20</date>
          * <summary>
          * Awake method called by Unity
          * </summary>
@@ -65,8 +65,8 @@ namespace Assets.Scripts.Factions {
         // private void Update() { }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/15/20
+         * <author>Brenton Hauth</author>
+         * <date>11/15/20</date>
          * <summary>
          * Registers a entity with the FactionManager
          * </summary>
@@ -88,8 +88,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/15/20
+         * <author>Brenton Hauth</author>
+         * <date>11/15/20</date>
          * <summary>
          * Registers a entity with the FactionManager
          * </summary>
@@ -105,8 +105,8 @@ namespace Assets.Scripts.Factions {
         }
         
         /**
-         * @author Brenton Hauth
-         * @date 11/25/20
+         * <author>Brenton Hauth</author>
+         * <date>11/25/20</date>
          * <summary>
          * Produces a noise and broadcasts it to all etities listening for noise
          * </summary>
@@ -119,8 +119,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/15/20
+         * <author>Brenton Hauth</author>
+         * <date>11/15/20</date>
          * <summary>
          * Checks the stored transforms to see if there is an entity associated
          * </summary>
@@ -152,8 +152,8 @@ namespace Assets.Scripts.Factions {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/19/20
+         * <author>Brenton Hauth</author>
+         * <date>11/19/20</date>
          * <summary>
          * Primarily used for Testing, gets the entity associated.
          * </summary>
@@ -171,8 +171,8 @@ namespace Assets.Scripts.Factions {
 
         #region Faction Entities Class
         /**
-         * @author Brenton Hauth
-         * @date 11/19/20
+         * <author>Brenton Hauth</author>
+         * <date>11/19/20</date>
          * <summary>
          * Internal class to store all entites for a faction.
          * </summary>
@@ -182,8 +182,8 @@ namespace Assets.Scripts.Factions {
             private Dictionary<Transform, FactionEntity> Entities;
 
             /**
-             * @author Brenton Hauth
-             * @date 11/17/20
+             * <author>Brenton Hauth</author>
+             * <date>11/17/20</date>
              * <summary>
              * Indexer to quickly get the value associated with the key
              * </summary>
@@ -195,8 +195,8 @@ namespace Assets.Scripts.Factions {
             }
 
             /**
-             * @author Brenton Hauth
-             * @date 11/17/20
+             * <author>Brenton Hauth</author>
+             * <date>11/17/20</date>
              * <summary>Constructor</summary>
              * <param name="faction">The faction that stores the entities</param>
              */
@@ -206,8 +206,8 @@ namespace Assets.Scripts.Factions {
             }
 
             /**
-             * @author Brenton Hauth
-             * @date 11/17/20
+             * <author>Brenton Hauth</author>
+             * <date>11/17/20</date>
              * <summary>
              * Adds an entity to the associated faction.
              * It's better to use Add(FactionEntity)
@@ -229,8 +229,8 @@ namespace Assets.Scripts.Factions {
             }
 
             /**
-             * @author Brenton Hauth
-             * @date 11/17/20
+             * <author>Brenton Hauth</author>
+             * <date>11/17/20</date>
              * <summary>
              * Adds an entity using its transform as its key 
              * </summary>
@@ -239,8 +239,8 @@ namespace Assets.Scripts.Factions {
             public void Add(FactionEntity e) => Add(e.transform, e);
 
             /**
-             * @author Brenton Hauth
-             * @date 11/17/20
+             * <author>Brenton Hauth</author>
+             * <date>11/17/20</date>
              * <summary>Removes an entity by it's key</summary>
              * <param name="key">The key to remove</param>
              */
@@ -255,8 +255,8 @@ namespace Assets.Scripts.Factions {
             }
 
             /**
-             * @author Brenton Hauth
-             * @date 11/17/20
+             * <author>Brenton Hauth</author>
+             * <date>11/17/20</date>
              * <summary>
              * Checks the saved entites for a faction
              * </summary>
@@ -292,8 +292,8 @@ namespace Assets.Scripts.Factions {
             }
 
             /**
-             * @author Brenton Hauth
-             * @date 11/17/20
+             * <author>Brenton Hauth</author>
+             * <date>11/17/20</date>
              * <summary>
              * Tries to get the value associated with the key
              * </summary>
@@ -304,15 +304,15 @@ namespace Assets.Scripts.Factions {
             public bool TryGetValue(Transform key, out FactionEntity value) => Entities.TryGetValue(key, out value);
 
             /**
-             * @author Brenton Hauth
-             * @date 11/17/20
+             * <author>Brenton Hauth</author>
+             * <date>11/17/20</date>
              * <summary>Gets an enumerator for the entities.</summary>
              */
             public IEnumerator<KeyValuePair<Transform, FactionEntity>> GetEnumerator() => Entities.GetEnumerator();
 
             /**
-             * @author Brenton Hauth
-             * @date 11/17/20
+             * <author>Brenton Hauth</author>
+             * <date>11/17/20</date>
              * <summary>Gets an enumerator for the entities.</summary>
              */
             IEnumerator IEnumerable.GetEnumerator() => Entities.GetEnumerator();

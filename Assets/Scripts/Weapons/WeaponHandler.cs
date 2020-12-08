@@ -6,8 +6,8 @@ using Assets.Scripts.Factions;
 namespace Assets.Scripts.Weapons {
     #region Weapon Enums
     /**
-     * @author Brenton Hauth
-     * @date 11/25/20
+     * <author>Brenton Hauth</author>
+     * <date>11/25/20</date>
      * <summary>
      * Used to trigger different animation layers,
      * depending on what weapon they are holding
@@ -21,8 +21,8 @@ namespace Assets.Scripts.Weapons {
     #endregion
 
     /**
-     * @author Brenton Hauth
-     * @date 10/25/20
+     * <author>Brenton Hauth</author>
+     * <date>10/25/20</date>
      * <summary>
      * Handles all weapon interactions (both Melee & Firearm).
      * Is extended by <c>PlayerWeaponHandler</c> & <c>EnemyWeaponHandler</c>
@@ -56,8 +56,8 @@ namespace Assets.Scripts.Weapons {
 
         #region Methods
         /**
-         * @author Brenton Hauth
-         * @date 11/08/20
+         * <author>Brenton Hauth</author>
+         * <date>11/08/20</date>
          * <summary>Start method called by Unity.</summary>
          */
         protected virtual void Start() {
@@ -67,15 +67,15 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/08/20
+         * <author>Brenton Hauth</author>
+         * <date>11/08/20</date>
          * <summary>Update function called by Unity.</summary>
          */
         protected abstract void Update();
 
         /**
-         * @author Brenton Hauth
-         * @date 11/18/20
+         * <author>Brenton Hauth</author>
+         * <date>11/18/20</date>
          * <summary>Originally called "PickUp"; Equips the weapon to the entity.</summary>
          * <param name="weaponObject">The weapon to equip (requires Weapon component).</param>
          * <returns>whether or not the weapon was properly equiped</returns>
@@ -105,8 +105,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/22/20
+         * <author>Brenton Hauth</author>
+         * <date>11/22/20</date>
          * <summary>
          * Activates the appropriate animation layer, depending on what weapon is equiped
          * and deactivate the other layers
@@ -128,16 +128,16 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/22/20
+         * <author>Brenton Hauth</author>
+         * <date>11/22/20</date>
          * <summary>Called if the current weapon is a Firearm and it shoots</summary>
          */
         public abstract void OnShoot();
         // TODO: ^^^ potentially change to abstract method
 
         /**
-         * @author Brenton Hauth
-         * @date 11/22/20
+         * <author>Brenton Hauth</author>
+         * <date>11/22/20</date>
          * <summary>Called if the current weapon hits an object</summary>
          * <param name="o">The object hit by the weapon (or bullet)</param>
          */

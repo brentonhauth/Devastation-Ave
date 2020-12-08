@@ -7,8 +7,8 @@ using UnityEngine;
 
 namespace Assets.Scripts.Enemy {
     /**
-     * @author Brenton Hauth
-     * @date 11/18/20
+     * <author>Brenton Hauth</author>
+     * <date>11/18/20</date>
      * <summary>
      * Handles Soldier Behaviour. Extends <c>Enemy</c> class.
      * </summary>
@@ -47,8 +47,8 @@ namespace Assets.Scripts.Enemy {
 
         #region Methods
         /**
-         * @author Brenton Hauth
-         * @date 11/24/20
+         * <author>Brenton Hauth</author>
+         * <date>11/24/20</date>
          * <summary>
          * Start method called by Unity
          * </summary>
@@ -63,8 +63,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/24/20
+         * <author>Brenton Hauth</author>
+         * <date>11/24/20</date>
          * <summary>
          * Update method called by Unity
          * </summary>
@@ -74,8 +74,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/24/20
+         * <author>Brenton Hauth</author>
+         * <date>11/24/20</date>
          * <summary>
          * </summary>
          */
@@ -87,8 +87,8 @@ namespace Assets.Scripts.Enemy {
 
         #region State Methods
         /**
-         * @author Brenton Hauth
-         * @date 11/24/20
+         * <author>Brenton Hauth</author>
+         * <date>11/24/20</date>
          * <summary>
          * </summary>
          */
@@ -97,8 +97,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/24/20
+         * <author>Brenton Hauth</author>
+         * <date>11/24/20</date>
          * <summary>
          * </summary>
          */
@@ -107,8 +107,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/24/20
+         * <author>Brenton Hauth</author>
+         * <date>11/24/20</date>
          * <summary>
          * </summary>
          */
@@ -117,8 +117,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/22/20
+         * <author>Brenton Hauth</author>
+         * <date>11/22/20</date>
          * <summary>
          * </summary>
          */
@@ -133,8 +133,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/22/20
+         * <author>Brenton Hauth</author>
+         * <date>11/22/20</date>
          * <summary>
          * </summary>
          */
@@ -151,8 +151,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/22/20
+         * <author>Brenton Hauth</author>
+         * <date>11/22/20</date>
          * <summary>
          * </summary>
          */
@@ -162,8 +162,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/24/20
+         * <author>Brenton Hauth</author>
+         * <date>11/24/20</date>
          * <summary>
          * </summary>
          */
@@ -172,8 +172,8 @@ namespace Assets.Scripts.Enemy {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/24/20
+         * <author>Brenton Hauth</author>
+         * <date>11/24/20</date>
          * <summary>
          * </summary>
          */
@@ -186,8 +186,8 @@ namespace Assets.Scripts.Enemy {
         }
         
         /**
-         * @author Brenton Hauth
-         * @date 11/24/20
+         * <author>Brenton Hauth</author>
+         * <date>11/24/20</date>
          * <summary>
          * </summary>
          */

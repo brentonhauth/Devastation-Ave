@@ -1,0 +1,22 @@
+apiRules:
+  - exclude:
+      uidRegex: ^Assets\.TextMesh_Pro.*$
+      type: Type
+  - exclude:
+      uidRegex: ^Runemark.*$
+      type: Type
+  - exclude:
+      uidRegex: ^Assets\.Imported\.Standard_Assets\.(Vehicles|CrossPlatformInput|Cameras|Utility|Environment|ParticleSystems).*$
+      type: Type
+  - exclude:
+      uidRegex: ^Assets\.Imported\.(Ragdoll|Mixamo|std_assets).*$
+      type: Type
+  - exclude:
+      uidRegex: ^Assets(\.Imported)?\.Standard_Assets\.Characters\.FirstPersonCharacter\.Scripts\.[^F]{1}.*$
+      type: Type
+  - exclude:
+      uidRegex: ^Assets(\.Imported)?\.Standard_Assets\.Characters\.(ThirdPersonCharacter|Roll(er)?Ball).*$
+      type: Type
+  - include:
+      uidRegex: ^Assets\.Scripts.*$
+      type: Type

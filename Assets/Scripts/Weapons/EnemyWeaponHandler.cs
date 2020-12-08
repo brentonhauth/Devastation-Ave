@@ -9,8 +9,8 @@ using Assets.Scripts.General;
 
 namespace Assets.Scripts.Weapons {
     /**
-     * @author Brenton Hauth
-     * @date 11/24/20
+     * <author>Brenton Hauth</author>
+     * <date>11/24/20</date>
      * <summary>
      * </summary>
      */
@@ -30,16 +30,16 @@ namespace Assets.Scripts.Weapons {
         public override Vector3 FirearmEulerRotation => EnemyFirearmEulerRotation;
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * </summary>
          */
         public override Vector3 BulletOrigin => Entity.Head.transform.position;
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * </summary>
          */
@@ -54,8 +54,8 @@ namespace Assets.Scripts.Weapons {
 
         #region Methods
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Start method called by Unity
          * </summary>
@@ -65,8 +65,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/20/20
+         * <author>Brenton Hauth</author>
+         * <date>11/20/20</date>
          * <summary>
          * Update method called by Unity
          * </summary>
@@ -74,8 +74,8 @@ namespace Assets.Scripts.Weapons {
         protected override void Update() { }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/26/20
+         * <author>Brenton Hauth</author>
+         * <date>11/26/20</date>
          * <summary>
          * Creates a rough direction to the associated entity target
          * </summary>
@@ -92,8 +92,8 @@ namespace Assets.Scripts.Weapons {
         }
 
         /**
-         * @author Brenton Hauth
-         * @date 11/22/20
+         * <author>Brenton Hauth</author>
+         * <date>11/22/20</date>
          * <summary>Called if the current weapon hits an object</summary>
          * <param name="o">The object hit by the weapon (or bullet)</param>
          */

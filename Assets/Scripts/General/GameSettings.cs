@@ -5,8 +5,8 @@ using UnityEngine;
 namespace Assets.Scripts.General {
     #region Difficulty Enum
     /**
-     * @author Brenton Hauth
-     * @date 30/11/20
+     * <author>Brenton Hauth</author>
+     * <date>30/11/20</date>
      * <summary>
      * An enum to hold the the different levels of difficulty
      * </summary>
@@ -19,8 +19,8 @@ namespace Assets.Scripts.General {
     #endregion
 
     /**
-     * @author Brenton Hauth
-     * @date 30/11/20
+     * <author>Brenton Hauth</author>
+     * <date>30/11/20</date>
      * <summary>
      * Stores settings of the game
      * </summary>
@@ -41,8 +41,8 @@ namespace Assets.Scripts.General {
 
         #region Methods
         /**
-         * @author Brenton Hauth
-         * @date 30/11/20
+         * <author>Brenton Hauth</author>
+         * <date>30/11/20</date>
          * <summary>
          * Updates the difficulty of the game
          * </summary>

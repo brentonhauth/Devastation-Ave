@@ -1,0 +1,848 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MultiplayerController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MultiplayerController
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Assets.Scripts.Multiplayer.MultiplayerController">
+  
+  
+  <h1 id="Assets_Scripts_Multiplayer_MultiplayerController" data-uid="Assets.Scripts.Multiplayer.MultiplayerController" class="text-break">Class MultiplayerController
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">UnityEngine.Networking.NetworkBehaviour</span></div>
+    <div class="level6"><span class="xref">MultiplayerController</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.SetDirtyBit(System.UInt32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.ClearAllDirtyBits()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.OnSerialize(UnityEngine.Networking.NetworkWriter, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.OnDeserialize(UnityEngine.Networking.NetworkReader, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.OnNetworkDestroy()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.OnStartServer()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.OnStartClient()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.OnStartAuthority()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.OnStopAuthority()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.OnRebuildObservers(System.Collections.Generic.HashSet&lt;UnityEngine.Networking.NetworkConnection&gt;, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.OnSetLocalVisibility(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.OnCheckObserver(UnityEngine.Networking.NetworkConnection)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.GetNetworkChannel()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.GetNetworkSendInterval()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.localPlayerAuthority</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.isServer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.isClient</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.isLocalPlayer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.hasAuthority</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.netId</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.connectionToServer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.connectionToClient</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.playerControllerId</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.syncVarDirtyBits</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Networking.NetworkBehaviour.syncVarHookGuard</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Assets.Scripts.Multiplayer.html">Assets.Scripts.Multiplayer</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Assets_Scripts_Multiplayer_MultiplayerController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[RequireComponent(typeof(MultiplayerHealth))]
+[RequireComponent(typeof(NetworkTransform), typeof(NetworkIdentity))]
+public class MultiplayerController : NetworkBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Multiplayer_MultiplayerController_RotateSpine.md&amp;value=---%0Auid%3A%20Assets.Scripts.Multiplayer.MultiplayerController.RotateSpine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Multiplayer/MultiplayerController.cs/#L17">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Multiplayer_MultiplayerController_RotateSpine" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.RotateSpine">RotateSpine</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RotateSpine</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Multiplayer_MultiplayerController_Spine.md&amp;value=---%0Auid%3A%20Assets.Scripts.Multiplayer.MultiplayerController.Spine%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Multiplayer/MultiplayerController.cs/#L16">View Source</a>
+  </span>
+  <h4 id="Assets_Scripts_Multiplayer_MultiplayerController_Spine" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.Spine">Spine</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform Spine</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Multiplayer_MultiplayerController_Health.md&amp;value=---%0Auid%3A%20Assets.Scripts.Multiplayer.MultiplayerController.Health%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Multiplayer/MultiplayerController.cs/#L30">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Multiplayer_MultiplayerController_Health_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.Health*"></a>
+  <h4 id="Assets_Scripts_Multiplayer_MultiplayerController_Health" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.Health">Health</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MultiplayerHealth Health { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Multiplayer.MultiplayerHealth.html">MultiplayerHealth</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Multiplayer_MultiplayerController_HorizontalAxis.md&amp;value=---%0Auid%3A%20Assets.Scripts.Multiplayer.MultiplayerController.HorizontalAxis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Multiplayer/MultiplayerController.cs/#L28">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Multiplayer_MultiplayerController_HorizontalAxis_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.HorizontalAxis*"></a>
+  <h4 id="Assets_Scripts_Multiplayer_MultiplayerController_HorizontalAxis" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.HorizontalAxis">HorizontalAxis</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float HorizontalAxis { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Multiplayer_MultiplayerController_Local.md&amp;value=---%0Auid%3A%20Assets.Scripts.Multiplayer.MultiplayerController.Local%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Multiplayer/MultiplayerController.cs/#L31">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Multiplayer_MultiplayerController_Local_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.Local*"></a>
+  <h4 id="Assets_Scripts_Multiplayer_MultiplayerController_Local" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.Local">Local</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MultiplayerController Local { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Multiplayer.MultiplayerController.html">MultiplayerController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Multiplayer_MultiplayerController_VerticalAxis.md&amp;value=---%0Auid%3A%20Assets.Scripts.Multiplayer.MultiplayerController.VerticalAxis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Multiplayer/MultiplayerController.cs/#L29">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Multiplayer_MultiplayerController_VerticalAxis_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.VerticalAxis*"></a>
+  <h4 id="Assets_Scripts_Multiplayer_MultiplayerController_VerticalAxis" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.VerticalAxis">VerticalAxis</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float VerticalAxis { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Multiplayer_MultiplayerController_CmdHit_UnityEngine_Networking_NetworkInstanceId_System_Single_.md&amp;value=---%0Auid%3A%20Assets.Scripts.Multiplayer.MultiplayerController.CmdHit(UnityEngine.Networking.NetworkInstanceId%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Multiplayer/MultiplayerController.cs/#L94">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Multiplayer_MultiplayerController_CmdHit_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.CmdHit*"></a>
+  <h4 id="Assets_Scripts_Multiplayer_MultiplayerController_CmdHit_UnityEngine_Networking_NetworkInstanceId_System_Single_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.CmdHit(UnityEngine.Networking.NetworkInstanceId,System.Single)">CmdHit(NetworkInstanceId, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Command]
+public void CmdHit(NetworkInstanceId id, float damage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Networking.NetworkInstanceId</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">damage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Multiplayer_MultiplayerController_CmdPickUp_UnityEngine_Networking_NetworkInstanceId_UnityEngine_Networking_NetworkInstanceId_.md&amp;value=---%0Auid%3A%20Assets.Scripts.Multiplayer.MultiplayerController.CmdPickUp(UnityEngine.Networking.NetworkInstanceId%2CUnityEngine.Networking.NetworkInstanceId)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Multiplayer/MultiplayerController.cs/#L102">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Multiplayer_MultiplayerController_CmdPickUp_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.CmdPickUp*"></a>
+  <h4 id="Assets_Scripts_Multiplayer_MultiplayerController_CmdPickUp_UnityEngine_Networking_NetworkInstanceId_UnityEngine_Networking_NetworkInstanceId_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.CmdPickUp(UnityEngine.Networking.NetworkInstanceId,UnityEngine.Networking.NetworkInstanceId)">CmdPickUp(NetworkInstanceId, NetworkInstanceId)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Command]
+public void CmdPickUp(NetworkInstanceId playerId, NetworkInstanceId weaponId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Networking.NetworkInstanceId</span></td>
+        <td><span class="parametername">playerId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Networking.NetworkInstanceId</span></td>
+        <td><span class="parametername">weaponId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Multiplayer_MultiplayerController_CmdSendMessageToServer_UnityEngine_Networking_NetworkInstanceId_System_String_.md&amp;value=---%0Auid%3A%20Assets.Scripts.Multiplayer.MultiplayerController.CmdSendMessageToServer(UnityEngine.Networking.NetworkInstanceId%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Multiplayer/MultiplayerController.cs/#L121">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Multiplayer_MultiplayerController_CmdSendMessageToServer_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.CmdSendMessageToServer*"></a>
+  <h4 id="Assets_Scripts_Multiplayer_MultiplayerController_CmdSendMessageToServer_UnityEngine_Networking_NetworkInstanceId_System_String_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.CmdSendMessageToServer(UnityEngine.Networking.NetworkInstanceId,System.String)">CmdSendMessageToServer(NetworkInstanceId, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Command]
+public void CmdSendMessageToServer(NetworkInstanceId id, string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Networking.NetworkInstanceId</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Multiplayer_MultiplayerController_OnStartLocalPlayer.md&amp;value=---%0Auid%3A%20Assets.Scripts.Multiplayer.MultiplayerController.OnStartLocalPlayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Multiplayer/MultiplayerController.cs/#L42">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Multiplayer_MultiplayerController_OnStartLocalPlayer_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.OnStartLocalPlayer*"></a>
+  <h4 id="Assets_Scripts_Multiplayer_MultiplayerController_OnStartLocalPlayer" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.OnStartLocalPlayer">OnStartLocalPlayer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnStartLocalPlayer()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEngine.Networking.NetworkBehaviour.OnStartLocalPlayer()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Multiplayer_MultiplayerController_Respawn_Assets_Scripts_Multiplayer_MultiplayerController_.md&amp;value=---%0Auid%3A%20Assets.Scripts.Multiplayer.MultiplayerController.Respawn(Assets.Scripts.Multiplayer.MultiplayerController)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Multiplayer/MultiplayerController.cs/#L201">View Source</a>
+  </span>
+  <a id="Assets_Scripts_Multiplayer_MultiplayerController_Respawn_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.Respawn*"></a>
+  <h4 id="Assets_Scripts_Multiplayer_MultiplayerController_Respawn_Assets_Scripts_Multiplayer_MultiplayerController_" data-uid="Assets.Scripts.Multiplayer.MultiplayerController.Respawn(Assets.Scripts.Multiplayer.MultiplayerController)">Respawn(MultiplayerController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Respawn(MultiplayerController mc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Multiplayer.MultiplayerController.html">MultiplayerController</a></td>
+        <td><span class="parametername">mc</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/brentonhauth/Devastation-Ave/new/brenton/apiSpec/new?filename=Assets_Scripts_Multiplayer_MultiplayerController.md&amp;value=---%0Auid%3A%20Assets.Scripts.Multiplayer.MultiplayerController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/brentonhauth/Devastation-Ave/blob/brenton/Assets/Scripts/Multiplayer/MultiplayerController.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
