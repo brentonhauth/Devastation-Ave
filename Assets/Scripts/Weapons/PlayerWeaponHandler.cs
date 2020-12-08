@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.Player;
+﻿using Assets.Scripts.Factions;
+using Assets.Scripts.Player;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -15,15 +16,15 @@ namespace Assets.Scripts.Weapons {
      * </summary>
      * <see cref="WeaponHandler" />
      */
-    [RequireComponent(typeof(PlayerController))]
+    // [RequireComponent(typeof(PlayerController))]
     public class PlayerWeaponHandler : WeaponHandler {
         
         #region Exposed Variables
         #endregion
 
         #region Variables
-        private static readonly Vector3 PlayerFirearmPosition = new Vector3(0.241f, -0.03f, 0.019f);
-        private static readonly Vector3 PlayerFirearmEulerRotation = new Vector3(-0.365f, 94.091f, 90.735f);
+        public static readonly Vector3 PlayerFirearmPosition = new Vector3(0.2f, -0.126f, 0.022f);
+        public static readonly Vector3 PlayerFirearmEulerRotation = new Vector3(23.388f, 101.565f, 67.867f);
         private PlayerController PlayerController;
         #endregion
 
@@ -53,8 +54,7 @@ namespace Assets.Scripts.Weapons {
         }
 
         public override void OnShoot() {
-            base.OnShoot();
-            PlayerController.TriggerFire();
+            PlayerController?.TriggerFire();
         }
 
         public override bool Equip(GameObject weapon) {
