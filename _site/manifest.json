@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "/i3jz/eGc7z20DtF6hzslg=="
+          "hash": "GOlSladbCMr6GNZ/GIKOPg=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Imported.Standard_Assets.Characters.FirstPersonCharacter.Scripts.FirstPersonController.html",
-          "hash": "ztHfrX38V7n6m5ACJkJfKw=="
+          "hash": "YVr+DOagmp2og6JgK0/qog=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Enemy.Enemy.html",
-          "hash": "e585bRC0QqYMYlWBVPoBXQ=="
+          "hash": "tMGR9z+PE/QCFplkcBQZxA=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Enemy.Hunter.html",
-          "hash": "+iiSqqcm0cqvwp+unWLtcg=="
+          "hash": "Z7PwmxK281YQJlwwxtbW4Q=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Enemy.HunterBehaviour.HunterPatrolType.html",
-          "hash": "9ZIhRZQmqU0+1jbHs/ocIg=="
+          "hash": "w82rJt1xmLKwTt3lzRw7pQ=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Enemy.HunterBehaviour.HunterState.html",
-          "hash": "bc2Ii0iNrMpT8R2tJwf2VA=="
+          "hash": "t77w4m3B7lF5YItOOE5SOA=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Enemy.HunterBehaviour.html",
-          "hash": "wWtwQNZBM4KwWo/4xi4Sew=="
+          "hash": "SwKrFx0WXn6WXn282ziGXA=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Enemy.PatrolPattern.html",
-          "hash": "rLUggRHXEtfmDp43xaBH6g=="
+          "hash": "jT3guqK2WGCPMZEO9E4wFQ=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Enemy.Seeker.html",
-          "hash": "hId8yBOPXh9Cjq0FX/SjKw=="
+          "hash": "FnNv4Grkqp0fL7WDLxPEIg=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Enemy.Soldier.html",
-          "hash": "2Ds5fPNhMUnDekoRvgPIag=="
+          "hash": "6fjNgjvGAN4axwFim0AAJA=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Enemy.TestEnemy.html",
-          "hash": "FJv5fVouGbgJ61JCh8x8Dw=="
+          "hash": "JWp371Dt2IxPzhFL/cV8Qw=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Factions.Faction.html",
-          "hash": "ycJeiurlZQ013kQKKd2qfg=="
+          "hash": "FAvAOUnCqFEYXxzlWKC8Fw=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Factions.FactionEntity.html",
-          "hash": "jrrXfGJ9MpDm6X5Yj3HdYQ=="
+          "hash": "1seDtVIpbifhmbTpghGpaQ=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Factions.FactionEntityTarget.html",
-          "hash": "FtOXSZMmWCrjh3Buptf7Qw=="
+          "hash": "dYlWbqahqKN3gtEMP7YOYg=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Factions.FactionManager.html",
-          "hash": "rooanLQ16wsRugPTN0Bu2Q=="
+          "hash": "KMkH0oQL0ZCE8EVYWbTHow=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Factions.NoiseType.html",
-          "hash": "NPG2r9f6/mz0U8z4+ug6+w=="
+          "hash": "CmuTE3GrnmCw5NbCnG3iqg=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Factions.SoundSensitivity.html",
-          "hash": "NROmt6pp2/Ko+9AUb1u1ww=="
+          "hash": "dv+3BcmLZPlGlRjZ1c9mjg=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.General.Difficulty.html",
-          "hash": "fPe6/Y7qSEP3zrkuMnu3hA=="
+          "hash": "r9lgJY3ePpj3pL1Hf1x0CQ=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.General.GameSettings.html",
-          "hash": "EYNjrfMsav4peGUssk9qXQ=="
+          "hash": "Vez0oIdqIz2S3f61fQ3h9Q=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Helpers.StateMachine.State.html",
-          "hash": "auJQ6LJN1X7JqakFHHylUg=="
+          "hash": "wB2cuDY1MGV7EkcDYuEwkg=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Helpers.StateMachine.html",
-          "hash": "yVHUhXjunQxuRIulXa4ZFA=="
+          "hash": "5m2p9rZs2c3+tEU8YyTejw=="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Helpers.VectorHelper.html",
-          "hash": "xdRCyuHuJmOR13mqF4S91Q=="
+          "hash": "I630lwIWJF5G4glKrIMJeQ=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Levels.TransitionHandler.html",
-          "hash": "d6RAdmApDeGJUMwkYals6w=="
+          "hash": "nezpYcJ8RpSTsZDDp5C0Cw=="
         }
       },
       "is_incremental": false,
@@ -353,11 +353,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assets.Scripts.Menu.DifficultyChanger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Menu.DifficultyChanger.html",
+          "hash": "J43Y5Qg+oPanv0IHV74HbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Assets.Scripts.Menu.MenuHandler.yml",
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Menu.MenuHandler.html",
-          "hash": "dKBNzF03vBI3ZDsaEF4NCA=="
+          "hash": "W6bvYn6oFWMGdSXDc5bwOw=="
         }
       },
       "is_incremental": false,
@@ -369,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Menu.html",
-          "hash": "CdmXEhy8m76KavHvpuy8RQ=="
+          "hash": "d6kbCRr9m5G27dodUeW/Vg=="
         }
       },
       "is_incremental": false,
@@ -381,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Multiplayer.MultiplayerController.html",
-          "hash": "aEqHnHmWjQZVDc6bI/Sd+w=="
+          "hash": "y2CZS9jQIPuIWMQJPkahaA=="
         }
       },
       "is_incremental": false,
@@ -393,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Multiplayer.MultiplayerHealth.html",
-          "hash": "etYmPn3MYWb3Y5OVn1lcBg=="
+          "hash": "ClnJChYFBTC9qcyedHzOlw=="
         }
       },
       "is_incremental": false,
@@ -405,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Multiplayer.MultiplayerManager.html",
-          "hash": "Vl081ku6vhUdAuSEWmFXAA=="
+          "hash": "eMSE3EtK8e9UgNmkt7IHhQ=="
         }
       },
       "is_incremental": false,
@@ -417,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Multiplayer.MultiplayerWeaponHandler.html",
-          "hash": "C5td3nxPTGDxQBX3dwQ1Cw=="
+          "hash": "jO7p9DE+70+X0RX3uYFENA=="
         }
       },
       "is_incremental": false,
@@ -429,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Multiplayer.e.LineDrawer.html",
-          "hash": "5RsjZ3TUnTdmF/jLWQOwrw=="
+          "hash": "qArVgzEWM4N9Bi7W0mPCAQ=="
         }
       },
       "is_incremental": false,
@@ -465,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Player.Animate.Layer.html",
-          "hash": "rg18L8kSezAYPrVFnI8cTg=="
+          "hash": "sNd4Q/PxPOhmz5aLlNdGdg=="
         }
       },
       "is_incremental": false,
@@ -477,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Player.Animate.html",
-          "hash": "hovbfvvMqAPhGph/gAqLww=="
+          "hash": "aLbnK2Nt9LGnOEsDCz6sPQ=="
         }
       },
       "is_incremental": false,
@@ -489,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Player.BasicController.html",
-          "hash": "0zNSIXCaBOQlxDF1hpaJ9A=="
+          "hash": "DmY/w5cESrfeXFLAc6tKuQ=="
         }
       },
       "is_incremental": false,
@@ -501,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Player.Health.html",
-          "hash": "Kv+ZOf+YXaYnYXl97lvRPA=="
+          "hash": "p1ilji0fp6fi+YPWsT4t3g=="
         }
       },
       "is_incremental": false,
@@ -513,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Player.HitBox.html",
-          "hash": "uTps01wdCg0ip+ue1cDgnw=="
+          "hash": "lvPw30T6SN0uFA2dBkuxyw=="
         }
       },
       "is_incremental": false,
@@ -525,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Player.PlayerController.html",
-          "hash": "RNlm7DU+U/karMfzsGBEiA=="
+          "hash": "0qFrhqotl9QkbfG4YtRclA=="
         }
       },
       "is_incremental": false,
@@ -549,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Weapons.AnimationLayer.html",
-          "hash": "vzF64lz5xz8QP4TUAs28QA=="
+          "hash": "dGyUdxWzCQ7ELz83qsC1Xw=="
         }
       },
       "is_incremental": false,
@@ -561,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Weapons.EnemyWeaponHandler.html",
-          "hash": "DIcJCgnYCjDWZG9tQ9/SWA=="
+          "hash": "adwcp0eoXFzGvb9EH0Wtow=="
         }
       },
       "is_incremental": false,
@@ -573,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Weapons.Firearm.Bullet.html",
-          "hash": "gL69oXcAwuZn4Z+60AJ1VQ=="
+          "hash": "9vVAMpLJ6pCsLuCYlymEEg=="
         }
       },
       "is_incremental": false,
@@ -585,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Weapons.Firearm.html",
-          "hash": "K80jENKxcc663czkLds0Vw=="
+          "hash": "kOY3WHnTHplobaTv6gAlOQ=="
         }
       },
       "is_incremental": false,
@@ -597,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Weapons.Melee.html",
-          "hash": "DYeikW+GIm+EW7AC568N0Q=="
+          "hash": "bp9BUqnwNQNAvUNRZNJgww=="
         }
       },
       "is_incremental": false,
@@ -609,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Weapons.PlayerWeaponHandler.html",
-          "hash": "nTxvxNSqmuC13hUQQfwZ3Q=="
+          "hash": "qmmefcSq+rGIb4Ns+r8ToQ=="
         }
       },
       "is_incremental": false,
@@ -621,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Weapons.ReloadFlag.html",
-          "hash": "eB2PcogPtUjsquWmq1HTQQ=="
+          "hash": "OSdLqZMMzaHjUOGzmf93Qg=="
         }
       },
       "is_incremental": false,
@@ -633,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Weapons.Weapon.html",
-          "hash": "i26dh8ofsm8C3kG0r1xmYw=="
+          "hash": "CHHKb/kB47cFm2CC54GysA=="
         }
       },
       "is_incremental": false,
@@ -645,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Assets.Scripts.Weapons.WeaponHandler.html",
-          "hash": "0J8Vm63oUBY9VJU4hmcFKA=="
+          "hash": "56KVsONsL1pK1D0eSfBSQw=="
         }
       },
       "is_incremental": false,
@@ -669,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "cMrHFNnyILgP3Bxe8G+WMA=="
+          "hash": "Pc/heDIRTm6iTWWNQlpBrA=="
         }
       },
       "is_incremental": false,
@@ -711,7 +723,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 54,
+          "total_file_count": 55,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

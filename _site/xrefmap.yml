@@ -1831,6 +1831,19 @@ references:
   isSpec: "True"
   fullName: Assets.Scripts.General.GameSettings.EnemyDamageMultiplier
   nameWithType: GameSettings.EnemyDamageMultiplier
+- uid: Assets.Scripts.General.GameSettings.MakePlayerImmortal
+  name: MakePlayerImmortal
+  href: api/Assets.Scripts.General.GameSettings.html#Assets_Scripts_General_GameSettings_MakePlayerImmortal
+  commentId: P:Assets.Scripts.General.GameSettings.MakePlayerImmortal
+  fullName: Assets.Scripts.General.GameSettings.MakePlayerImmortal
+  nameWithType: GameSettings.MakePlayerImmortal
+- uid: Assets.Scripts.General.GameSettings.MakePlayerImmortal*
+  name: MakePlayerImmortal
+  href: api/Assets.Scripts.General.GameSettings.html#Assets_Scripts_General_GameSettings_MakePlayerImmortal_
+  commentId: Overload:Assets.Scripts.General.GameSettings.MakePlayerImmortal
+  isSpec: "True"
+  fullName: Assets.Scripts.General.GameSettings.MakePlayerImmortal
+  nameWithType: GameSettings.MakePlayerImmortal
 - uid: Assets.Scripts.General.GameSettings.UpdateDifficulty(Assets.Scripts.General.Difficulty)
   name: UpdateDifficulty(Difficulty)
   href: api/Assets.Scripts.General.GameSettings.html#Assets_Scripts_General_GameSettings_UpdateDifficulty_Assets_Scripts_General_Difficulty_
@@ -2110,6 +2123,88 @@ references:
   commentId: N:Assets.Scripts.Menu
   fullName: Assets.Scripts.Menu
   nameWithType: Assets.Scripts.Menu
+- uid: Assets.Scripts.Menu.DifficultyChanger
+  name: DifficultyChanger
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html
+  commentId: T:Assets.Scripts.Menu.DifficultyChanger
+  fullName: Assets.Scripts.Menu.DifficultyChanger
+  nameWithType: DifficultyChanger
+- uid: Assets.Scripts.Menu.DifficultyChanger.EasyButton
+  name: EasyButton
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html#Assets_Scripts_Menu_DifficultyChanger_EasyButton
+  commentId: F:Assets.Scripts.Menu.DifficultyChanger.EasyButton
+  fullName: Assets.Scripts.Menu.DifficultyChanger.EasyButton
+  nameWithType: DifficultyChanger.EasyButton
+- uid: Assets.Scripts.Menu.DifficultyChanger.HardButton
+  name: HardButton
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html#Assets_Scripts_Menu_DifficultyChanger_HardButton
+  commentId: F:Assets.Scripts.Menu.DifficultyChanger.HardButton
+  fullName: Assets.Scripts.Menu.DifficultyChanger.HardButton
+  nameWithType: DifficultyChanger.HardButton
+- uid: Assets.Scripts.Menu.DifficultyChanger.ImmortalToggle
+  name: ImmortalToggle
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html#Assets_Scripts_Menu_DifficultyChanger_ImmortalToggle
+  commentId: F:Assets.Scripts.Menu.DifficultyChanger.ImmortalToggle
+  fullName: Assets.Scripts.Menu.DifficultyChanger.ImmortalToggle
+  nameWithType: DifficultyChanger.ImmortalToggle
+- uid: Assets.Scripts.Menu.DifficultyChanger.NormalButton
+  name: NormalButton
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html#Assets_Scripts_Menu_DifficultyChanger_NormalButton
+  commentId: F:Assets.Scripts.Menu.DifficultyChanger.NormalButton
+  fullName: Assets.Scripts.Menu.DifficultyChanger.NormalButton
+  nameWithType: DifficultyChanger.NormalButton
+- uid: Assets.Scripts.Menu.DifficultyChanger.OnEasyClick
+  name: OnEasyClick()
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html#Assets_Scripts_Menu_DifficultyChanger_OnEasyClick
+  commentId: M:Assets.Scripts.Menu.DifficultyChanger.OnEasyClick
+  fullName: Assets.Scripts.Menu.DifficultyChanger.OnEasyClick()
+  nameWithType: DifficultyChanger.OnEasyClick()
+- uid: Assets.Scripts.Menu.DifficultyChanger.OnEasyClick*
+  name: OnEasyClick
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html#Assets_Scripts_Menu_DifficultyChanger_OnEasyClick_
+  commentId: Overload:Assets.Scripts.Menu.DifficultyChanger.OnEasyClick
+  isSpec: "True"
+  fullName: Assets.Scripts.Menu.DifficultyChanger.OnEasyClick
+  nameWithType: DifficultyChanger.OnEasyClick
+- uid: Assets.Scripts.Menu.DifficultyChanger.OnHardClick
+  name: OnHardClick()
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html#Assets_Scripts_Menu_DifficultyChanger_OnHardClick
+  commentId: M:Assets.Scripts.Menu.DifficultyChanger.OnHardClick
+  fullName: Assets.Scripts.Menu.DifficultyChanger.OnHardClick()
+  nameWithType: DifficultyChanger.OnHardClick()
+- uid: Assets.Scripts.Menu.DifficultyChanger.OnHardClick*
+  name: OnHardClick
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html#Assets_Scripts_Menu_DifficultyChanger_OnHardClick_
+  commentId: Overload:Assets.Scripts.Menu.DifficultyChanger.OnHardClick
+  isSpec: "True"
+  fullName: Assets.Scripts.Menu.DifficultyChanger.OnHardClick
+  nameWithType: DifficultyChanger.OnHardClick
+- uid: Assets.Scripts.Menu.DifficultyChanger.OnImmortalChecked
+  name: OnImmortalChecked()
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html#Assets_Scripts_Menu_DifficultyChanger_OnImmortalChecked
+  commentId: M:Assets.Scripts.Menu.DifficultyChanger.OnImmortalChecked
+  fullName: Assets.Scripts.Menu.DifficultyChanger.OnImmortalChecked()
+  nameWithType: DifficultyChanger.OnImmortalChecked()
+- uid: Assets.Scripts.Menu.DifficultyChanger.OnImmortalChecked*
+  name: OnImmortalChecked
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html#Assets_Scripts_Menu_DifficultyChanger_OnImmortalChecked_
+  commentId: Overload:Assets.Scripts.Menu.DifficultyChanger.OnImmortalChecked
+  isSpec: "True"
+  fullName: Assets.Scripts.Menu.DifficultyChanger.OnImmortalChecked
+  nameWithType: DifficultyChanger.OnImmortalChecked
+- uid: Assets.Scripts.Menu.DifficultyChanger.OnNormalClick
+  name: OnNormalClick()
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html#Assets_Scripts_Menu_DifficultyChanger_OnNormalClick
+  commentId: M:Assets.Scripts.Menu.DifficultyChanger.OnNormalClick
+  fullName: Assets.Scripts.Menu.DifficultyChanger.OnNormalClick()
+  nameWithType: DifficultyChanger.OnNormalClick()
+- uid: Assets.Scripts.Menu.DifficultyChanger.OnNormalClick*
+  name: OnNormalClick
+  href: api/Assets.Scripts.Menu.DifficultyChanger.html#Assets_Scripts_Menu_DifficultyChanger_OnNormalClick_
+  commentId: Overload:Assets.Scripts.Menu.DifficultyChanger.OnNormalClick
+  isSpec: "True"
+  fullName: Assets.Scripts.Menu.DifficultyChanger.OnNormalClick
+  nameWithType: DifficultyChanger.OnNormalClick
 - uid: Assets.Scripts.Menu.MenuHandler
   name: MenuHandler
   href: api/Assets.Scripts.Menu.MenuHandler.html
