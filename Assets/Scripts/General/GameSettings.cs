@@ -37,6 +37,7 @@ namespace Assets.Scripts.General {
         }
         public static float EnemyDamageMultiplier { get; private set; } = 1f;
         public static float DetectionMultiplier { get; private set; } = 1f;
+        public static bool MakePlayerImmortal { get; set; } = false;
         #endregion
 
         #region Methods
@@ -58,6 +59,7 @@ namespace Assets.Scripts.General {
             DetectionMultiplier = .5f + (.25f * (float)Difficulty); // Easy=0.75, Normal=1, Hard=1.25
 
             m_Difficulty = difficulty;
+            Debug.Log($"Updated difficulty to {m_Difficulty}");
         }
         #endregion
     }
